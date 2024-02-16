@@ -16,29 +16,57 @@ html{
     align-items: center;
     height: 471px;
     width: 100%;
-
 }
 
 .card{
     height: 173px;
     width: 296px;
-    background-color: #A8A8A8;
+    background-color: #737373;
     border-radius: 24px;
-
+    position: absolute;
+    background: linear-gradient(to bottom right, transparent, #373737);
+    backdrop-filter: blur(15px);
+    border-color: #373737;
 }
 
 .wifi{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
 }
 
-.dvakola{
-
-}
 
 .wifi-dvakola-meastro{
     display: flex;
     justify-content: space-between;
-    text-align: center;
     margin: 5px;
+    
+}
+
+.group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 3px;
+}
+
+.namecard{
+    display: flex;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+
+.logo{
+    position: relative;
+    left: -4px;
+    top: -61px;
+}
+
+.dvakola{
+    position: absolute;
     
 }
